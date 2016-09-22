@@ -24,4 +24,10 @@ puts "*"
 print " " * 1
 puts "*" * 3
 puts "*" * 5
+print "¿te gusta mi piramide?: "
 
+piramide = gets.chomp
+
+puts "Bueno, ahora un cuadrado"
+puts "*" * 4
+puts "*" * 4
