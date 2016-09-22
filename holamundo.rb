@@ -1,8 +1,10 @@
 puts "hola mundo "
-print "como te llamas "
+print "como te llamas:  "
+
 nombre = gets.chomp
-puts "que nombre más chulo"
-puts "je" * 3
+
+puts "Que nombre más chulo"
+puts "je " * 3
 print " " * 4
 puts "*"
 print " " * 3
@@ -12,6 +14,14 @@ puts "*" * 3
 print " " * 1
 puts "*" * 4
 puts "*" * 5
-print "te gusta mi triángulo"
+print "te gusta mi triángulo: "
+
 triangulo = gets.chomp
-puts "bueno, intentaré mejorarlo"
+
+puts "Bueno, ahora una piramide"
+print " " * 2
+puts "*"
+print " " * 1
+puts "*" * 3
+puts "*" * 5
+
